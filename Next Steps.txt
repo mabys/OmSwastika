@@ -1,0 +1,10 @@
+1. Copy Maven to a folder
+2. Copy Eclipse Workspace to a folder
+3. Open Eclipse with this workspace
+4. Add MAVEN_HOME and M2_HOME property in Class Path Variables with the location of bin folder inside maven folder
+5. Add %M2_HOME%/bin to Path
+6. In Eclipse Marketplace, Install Maven Integration for Eclipse
+7. Open Pom.XML in Demo and change 1,8 to 1.7
+8. Add Ant files for all three projects
+9. Run Maven Install on Demo
+10. Run tomcat ant on site and admin
